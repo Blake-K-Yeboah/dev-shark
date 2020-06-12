@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevShark - Our Work</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="" href="../favicon.ico?" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8fb1fa5536.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    
+    <header class="small portfolio">
+
+        <nav class="navbar" id="navbar">
+
+            <img src="../img/logo.png" alt="Dev Shark Logo" class="nav-logo"> 
+
+            <ul class="nav-list">
+
+                <li class="nav-item">
+
+                    <a href="../" class="nav-link">Home</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a href="./" class="nav-link active">Our Work</a>
+                    
+                </li>
+
+                <li class="nav-item">
+
+                    <a href="../about/" class="nav-link">About Us</a>
+                    
+                </li>
+
+                <li class="nav-item">
+
+                    <a href="../contact/" class="nav-link">Contact Us</a>
+                    
+                </li>
+
+            </ul>
+
+            <ul class="social-icon-list">
+
+                <li class="social-icon-container">
+                    <a class="fab fa-twitter" href="https://twitter.com/devsharkco" target="_blank"></a>
+                </li>
+
+                <li class="social-icon-container">
+                    <a class="fab fa-facebook-f" href="https://www.facebook.com/DevSharkco/" target="_blank"></a>
+                </li>
+
+                <li class="social-icon-container">
+                    <a class="fab fa-instagram" href="https://www.instagram.com/devsharkco/" target="_blank"></a>
+                </li>
+
+            </ul>
+
+            <i class="fas fa-bars nav-menu-icon" id="nav-menu-icon"></i>
+            
+        </nav>
+        
+        <h1 class="header-text">
+            Your Website COuld Be Next
+        </h1>
+
+    </header>
+
+    
+    <aside class="mobile-nav hidden" id="mobile-sidebar">
+
+        <div class="content">
+            
+            <i class="fas fa-times menu-icon" id="mobile-menu-icon"></i>
+
+            <h2 class="title">MENU</h2>
+
+            <ul class="nav-list">
+
+                <li class="nav-item">
+
+                    <a href="../" class="nav-link">Home</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a href="./" class="nav-link active">Our Work</a>
+                    
+                </li>
+
+                <li class="nav-item">
+
+                    <a href="../about/" class="nav-link">About Us</a>
+                    
+                </li>
+
+                <li class="nav-item">
+
+                    <a href="../contact/" class="nav-link">Contact Us</a>
+                    
+                </li>
+
+            </ul>
+
+        </div>
+
+    </aside>
+
+    <section class="section portfolio">
+
+        <h1 class="section-title">Our Work</h1>
+
+        <div class="grid">
+            
+            <div class="portfolio-item">
+
+                <img src="../img/projects/Audi.png" alt="Audi Screenshot" class="portfolio-item-img">
+                
+                <h2 class="portfolio-item-name">Audi</h2>
+
+                <button class="btn primary preview-btn" data-website="https://blake-audi-redesign.netlify.app/">Preview</button>
+
+            </div>
+
+            <div class="portfolio-item">
+
+                <img src="../img/projects/CareerBusters.png" alt="Career Busters Screenshot" class="portfolio-item-img">
+                
+                <h2 class="portfolio-item-name">Career Busters</h2>
+
+                <button class="btn primary preview-btn" data-website="https://blake-careerbusters.netlify.app/">Preview</button>
+
+            </div>
+
+            <div class="portfolio-item">
+
+                <img src="../img/projects/starbucks.png" alt="Starbucks Screenshot" class="portfolio-item-img">
+                
+                <h2 class="portfolio-item-name">Starbucks</h2>
+
+                <button class="btn primary preview-btn disabled" data-img-src="../img/projects/starbucks.png">Preview</button>
+
+            </div>
+
+            <div class="portfolio-item">
+
+                <img src="../img/projects/DevNetwork.png" alt="DevNetwork Screenshot" class="portfolio-item-img">
+                
+                <h2 class="portfolio-item-name">DevNetwork</h2>
+
+                <button class="btn primary preview-btn" data-website="https://blake-dev-network.herokuapp.com/">Preview</button>
+
+            </div>
+
+            <div class="portfolio-item">
+
+                <img src="../img/projects/BlakesBakery.png" alt="Blakes Bakery Screenshot" class="portfolio-item-img w-border">
+                
+                <h2 class="portfolio-item-name">Blakes Bakery</h2>
+
+                <button class="btn primary preview-btn disabled" data-img-src="../img/projects/BlakesBakery.png">Preview</button>
+
+            </div>
+
+            <div class="portfolio-item">
+
+                <img src="../img/projects/SocialUI.png" alt="Career Busters Screenshot" class="portfolio-item-img">
+                
+                <h2 class="portfolio-item-name">Social UI</h2>
+
+                <button class="btn primary preview-btn" data-img-src="../img/projects/SocialUI.png">Preview</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="modal hidden" id="project-modal">
+
+        <img src="../img/projects/Audi.png" alt="Modal Image" id="project-modal-img">
+
+        <i class="fas fa-times close-icon" id="modal-close-icon"></i>
+
+    </div>
+
+    <section class="contact-section">
+
+        <h1 class="section-title">How Can We Help You?</h1>
+
+        <form class="contact-form">
+
+            <div class="form-group">
+
+                <label for="name">Name *</label>
+
+                <input type="text" name="name" id="name" class="contact-input" required>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="name">Email *</label>
+
+                <input type="email" name="email" id="email" class="contact-input" required>
+
+            </div>
+
+            <div class="form-group">
+
+                <label for="message">Message *</label>
+
+                <textarea class="contact-input contact-textarea" id="message" name="message" required></textarea>
+
+
+            </div>
+
+            <div class="form-group">
+
+                <button class="btn primary submit-btn" type="submit">Send</button>
+
+            </div>
+        </form>
+
+    </section>
+
+    <footer>
+
+        <p class="footer-text">&copy; Copyright 2020 DevShark</p>
+
+    </footer>
+
+    <!-- JS -->
+    <script src="../js/main.js"></script>
+
+    <script>
+        window.addEventListener('load', () => {
+
+        const modal = document.querySelector('#project-modal');
+
+        const openModal = src => {
+            const modalImg = document.querySelector('#project-modal-img');
+
+            modal.classList.remove('hidden');
+            modalImg.src = src;
+
+        }
+
+        const closeModal = () => {
+            modal.classList.add('hidden');
+        }
+
+        document.querySelector('#modal-close-icon').addEventListener('click', closeModal);
+
+        const previewBtns = document.querySelectorAll('.preview-btn');
+
+        previewBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                let webAttribute = btn.getAttribute('data-website');
+
+                if (!webAttribute) {
+                    openModal(btn.getAttribute('data-img-src'));
+                } else {
+                    window.open(webAttribute);
+                }
+            });
+        });
+
+        });
+
+    </script>
+
+</body>
+</html>
