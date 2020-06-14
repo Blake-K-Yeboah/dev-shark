@@ -13,6 +13,7 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  width: 100vw;
 }
 
 ::-webkit-scrollbar {
@@ -20,6 +21,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
+  background-color: #ffae2d;
+}
+
+::-webkit-scrollbar-track {
   background-color: #333;
 }
 
@@ -806,8 +811,20 @@ footer .footer-text {
 }
 
 @media screen and (max-width: 624px) {
+  header {
+    background: url("../img/homepage-header.jpg") center/cover no-repeat scroll;
+  }
   header .header-text {
     font-size: 2.5rem;
+  }
+  header.portfolio {
+    background: url("../img/portfolio-header.jpg") center/cover no-repeat scroll;
+  }
+  header.about {
+    background: url("../img/aboutus-header.jpg") center/cover no-repeat scroll;
+  }
+  header.contact {
+    background: url("../img/contact-form-contact-page.jpg") center/cover no-repeat scroll;
   }
   .section#pandemic .section-title {
     width: 60vw;
@@ -836,11 +853,17 @@ footer .footer-text {
   .section.about .about-content .about-text {
     width: 70vw;
   }
+  .img-section {
+    background: url("../img/homepage-standout.jpg") center/cover no-repeat scroll;
+  }
   .img-section .offer-section .grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     width: 50vw;
     gap: 4em 0;
+  }
+  .contact-section {
+    background: url("../img/contact-form.jpg") center/cover no-repeat scroll;
   }
 }
 
@@ -849,4 +872,3 @@ footer .footer-text {
     height: 40vh;
   }
 }
-/*# sourceMappingURL=main.css.map */
